@@ -475,7 +475,6 @@ hr {
 }
 #footer ul.navigation {
 	float: left;
-	display: inline-block;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -507,7 +506,6 @@ hr {
 /** Connect **/
 #connect {
 	float: right;
-	display: inline-block;
 	line-height: 26px;
 	margin: 12px 0 0;
 }

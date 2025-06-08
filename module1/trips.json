@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Hiking in the Alps",
+    "location": "Switzerland",
+    "price": "$1,500",
+    "duration": "5 days"
+  },
+  {
+    "title": "Beach Getaway",
+    "location": "Bahamas",
+    "price": "$2,100",
+    "duration": "7 days"
+  },
+  {
+    "title": "Tokyo Explorer",
+    "location": "Japan",
+    "price": "$1,800",
+    "duration": "6 days"
+  }
+]
