@@ -1,0 +1,15 @@
+<div class="container mt-4">
+  <h2 class="mb-3">Available Trips</h2>
+
+  <div *ngIf="trips.length === 0">
+    No trips available.
+  </div>
+
+  <div *ngFor="let trip of trips" class="card mb-3 p-3">
+    <h4>{{ trip.title }}</h4>
+    <p><strong>Location:</strong> {{ trip.location }}</p>
+    <p><strong>Price:</strong> {{ trip.price }}</p>
+    <p><strong>Duration:</strong> {{ trip.duration }}</p>
+    <p *ngIf="trip.description"><strong>Description:</strong> {{ trip.description }}</p>
+  </div>
+</div>
